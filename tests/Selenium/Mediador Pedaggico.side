@@ -1,0 +1,1805 @@
+{
+  "id": "40d321b3-6871-41fa-bb66-8179df5898de",
+  "version": "2.0",
+  "name": "Mediador Pedagógico",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "62b049ec-526b-4f18-8e58-14a177de87bd",
+    "name": "Cadastrar Aviso-> Scenario: Administrador quer criar um aviso",
+    "commands": [{
+      "id": "ea746e9c-9aee-4b87-9067-9d5944b2a378",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "199a18fd-9990-44a4-b7ee-db86029fcd21",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6677767a-d0e2-45df-9505-515f88bf1d5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) .elevation-7 img",
+      "targets": [
+        ["css=.flex:nth-child(1) .elevation-7 img", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/a/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1c47712-e409-4699-9dae-8fa39a4b19c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme--dark > .v-btn__content",
+      "targets": [
+        ["css=.theme--dark > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[2]/a/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3b2110d-034a-4144-bb38-295acf6ce044",
+      "comment": "",
+      "command": "click",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dafe09bf-9497-426c-806c-f72c6eccdba9",
+      "comment": "",
+      "command": "type",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "teste titulo"
+    }, {
+      "id": "3dfd4eab-5520-4305-8b5b-6ed888c05f08",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7777b4a-55cd-468d-9f8c-54920b37e9bf",
+      "comment": "",
+      "command": "type",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "teste descrição"
+    }, {
+      "id": "c748b05c-dc6f-4c91-a66c-7b4024bc3d13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "771d566f-e4fb-409e-9c6d-4a66b050bf26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-icon--right",
+      "targets": [
+        ["css=.v-icon--right", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2a08406-4bea-4bec-8f28-d6b4ce19df99",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a22965db-243f-46c6-a23d-129790e7943b",
+    "name": "Cadastrar Aviso-> Scenario: Administrador quer criar um aviso sem titulo",
+    "commands": [{
+      "id": "de0dc4fe-2b98-4403-ab90-15985e661c70",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "846d31b6-f176-460d-b107-51a4e859314e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63f999b0-8210-4b4d-8e65-c1231e4d01da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) .elevation-7 img",
+      "targets": [
+        ["css=.flex:nth-child(1) .elevation-7 img", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/a/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "133dff0c-ebb0-4fca-8eea-7330a18192f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme--dark > .v-btn__content",
+      "targets": [
+        ["css=.theme--dark > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[2]/a/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abe896ab-de9c-4603-ae52-370967b7f65f",
+      "comment": "",
+      "command": "click",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8bce54f-48f4-4402-8828-1d1951e4a0a8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "291fc45d-99c6-4cbd-96b7-9bb02c11e9e6",
+      "comment": "",
+      "command": "type",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "teste descrição"
+    }, {
+      "id": "ecdf4541-87a2-42ce-b3a5-9dbd05bc5781",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a6dc3c4-2477-40e0-8249-c5f88d3b2c81",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26250598-4869-480a-99d9-79ea250224f3",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Preencha os campos corretamente!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6a84a5f-568c-4354-9789-e1e0159fe88e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4cd8f8eb-5fa5-4c8c-9aed-1fb401f31d0f",
+    "name": "Cadastrar Aviso-> Scenario: Administrador quer criar um aviso sem descricao",
+    "commands": [{
+      "id": "40eafefb-6765-4d3d-808b-41f72f636074",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37fc872b-f762-4bac-ac41-b542f709fad5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db9a289d-4c9a-4a18-b93e-b1eb18226008",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) .elevation-7 img",
+      "targets": [
+        ["css=.flex:nth-child(1) .elevation-7 img", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/a/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5c0eb0b-8171-4f5c-b3df-b690ef789ffa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme--dark > .v-btn__content",
+      "targets": [
+        ["css=.theme--dark > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[2]/a/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b56913aa-abf4-4f72-9373-f4921b06566e",
+      "comment": "",
+      "command": "click",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "365f6748-ce5c-477c-8bc9-11840020dc23",
+      "comment": "",
+      "command": "type",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "teste titulo"
+    }, {
+      "id": "2d7ba135-8eb4-4ae3-999b-cf9a145d6003",
+      "comment": "",
+      "command": "click",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a79c22a3-bc62-48d9-94f6-80fc3b84502f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54d8c3d3-d6a5-4f5a-a23a-c9f74d4dc0ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3750d77-d025-4481-8991-ea80ae5365ac",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5d22230-e8bf-420b-a608-e16449857e72",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Preencha os campos corretamente!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b7ee71c-56e9-4c37-b6f8-35f6ebb25dfa",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "220365a7-d077-44fe-842a-c6dde9f9a133",
+    "name": "Cadastrar Aviso-> Administrador quer criar um aviso com titulo acima de 100 caracteres",
+    "commands": [{
+      "id": "b0b16a47-c5d1-4b4a-af54-14935ae3b469",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd227585-72f4-47d5-a190-511f34a29704",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "137f614c-bede-4a9a-9e65-0b29db25550d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) .elevation-7 img",
+      "targets": [
+        ["css=.flex:nth-child(1) .elevation-7 img", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/a/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a1ee454-780b-4290-846e-20695e7859c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme--dark > .v-btn__content",
+      "targets": [
+        ["css=.theme--dark > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[2]/a/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d516dc9-7bc1-49ce-9958-d45d47e4527b",
+      "comment": "",
+      "command": "click",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c695696-634c-4ee2-9bb4-3cf82b34ee38",
+      "comment": "",
+      "command": "type",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    }, {
+      "id": "3a48b1d1-4be7-415e-ad02-b6407a389fe9",
+      "comment": "",
+      "command": "click",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e366dce-36f4-428d-ae9b-4fd9826bc4ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a38b56e7-291f-419d-b947-ed4926021588",
+      "comment": "",
+      "command": "type",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "teste"
+    }, {
+      "id": "b24012dd-0bfc-4555-82df-bde359f73167",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb6055fb-5620-4bb9-9b95-bb60541d571e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db1bdf77-b773-4674-8f79-26888bc99af7",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Preencha os campos corretamente!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c77a01b6-6827-4902-9271-a4fd89d7a3a9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1296bee7-35d6-4557-beb9-2128e0014e1a",
+    "name": "Editar Aviso-> Administrador quer editar um aviso e inserir titulo acima de 100 caracteres",
+    "commands": [{
+      "id": "b9350604-3415-4ac5-abac-b5c74fe72285",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d88d41e-3293-4fcf-b749-00a1daa7ad83",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "764cc241-47bf-47a7-9c3a-fab5c5214116",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) .elevation-7 img",
+      "targets": [
+        ["css=.flex:nth-child(1) .elevation-7 img", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/a/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fda5c0e0-2d88-4151-a3d1-ba7f5bc92bcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .mr-2",
+      "targets": [
+        ["css=tr:nth-child(1) .mr-2", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[3]/div/div/div/form/div/div/table/tbody/tr/td[3]/i", "xpath:idRelative"],
+        ["xpath=//td[3]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "054857a6-ee17-477b-8c8d-762c22039535",
+      "comment": "",
+      "command": "click",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "262467a8-8f8c-47f8-8cfa-e0b61ccb61f9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1df7a9c5-df7e-48fb-9808-d0e2ff1bd6fc",
+      "comment": "",
+      "command": "type",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "aviso testeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    }, {
+      "id": "1108f1e5-884e-4273-891d-1ec6194ca680",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f296436-7110-430c-989a-03eee8f6901c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0d8a41b-42e5-474c-840c-d2f5d191a67a",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Preencha os campos corretamente!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e058370a-921a-408a-affc-759be75daee4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "139b43d1-d941-4dc3-b00b-a3a14766ca9a",
+    "name": "Editar Aviso-> Scenario: Administrador quer editar um aviso",
+    "commands": [{
+      "id": "8317cf76-3c00-4ff8-a839-b94c30fc589b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cf07463-d213-4bd7-a71e-603fcd434577",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fdb6676-f57a-41d7-8e86-5f1ea0699067",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) .elevation-7 img",
+      "targets": [
+        ["css=.flex:nth-child(1) .elevation-7 img", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/a/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6c49587-6cc0-41f3-802e-129a604c7d37",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.black",
+      "targets": [
+        ["css=.black", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad25e5b4-4a53-4b88-b3ed-f5bc60fd4d11",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.black",
+      "targets": [
+        ["css=.black", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "404a7542-2aaf-49d0-b7c5-b684dcd21747",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .mr-2",
+      "targets": [
+        ["css=tr:nth-child(1) .mr-2", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[3]/div/div/div/form/div/div/table/tbody/tr/td[3]/i", "xpath:idRelative"],
+        ["xpath=//td[3]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ff1f2d1-c0a6-4a8b-af25-d9e6a3b672dd",
+      "comment": "",
+      "command": "click",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32a6e1f9-4fed-4036-a139-a9a116ebb77a",
+      "comment": "",
+      "command": "type",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "aviso teste1"
+    }, {
+      "id": "5bb0c47c-58d7-40cd-96d6-16b995133e3e",
+      "comment": "",
+      "command": "click",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "105070a2-7aa6-40f5-bd9c-73b204757a79",
+      "comment": "",
+      "command": "type",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "aviso teste1"
+    }, {
+      "id": "1a762e5b-914f-4591-8b7e-d5eca227b52d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac0ab0fb-2b94-44b4-8074-ced98310b9b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-icon--right",
+      "targets": [
+        ["css=.v-icon--right", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9f9a34e-7155-4f8c-a8db-d79ea40f7e5d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a2861c0a-dd54-48f9-b17c-639acb423aa7",
+    "name": "Editar Aviso-> Scenario: Administrador quer editar um aviso sem descricao",
+    "commands": [{
+      "id": "604c44c6-29ff-4f78-bd8c-78e837f826ec",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12d9a6cf-d820-47cb-a05a-130aa6d24c14",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dd4db35-8a4d-4323-9584-d036c2046e72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) .elevation-7 img",
+      "targets": [
+        ["css=.flex:nth-child(1) .elevation-7 img", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/a/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "144d296f-dbc9-4936-80d0-45533032d3ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .mr-2",
+      "targets": [
+        ["css=tr:nth-child(1) .mr-2", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[3]/div/div/div/form/div/div/table/tbody/tr/td[3]/i", "xpath:idRelative"],
+        ["xpath=//td[3]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5394c071-f677-4621-949d-63dce3ab80cd",
+      "comment": "",
+      "command": "click",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad1bcbd4-2abd-486d-8c7c-4e254a839eec",
+      "comment": "",
+      "command": "type",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba2af1d7-957f-4b10-b7d5-ee5a6cdd403a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .v-btn",
+      "targets": [
+        ["css=.row > .v-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb3140cb-6ffe-49a9-97b6-e0e6ed976522",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Preencha os campos corretamente!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72596db8-11a9-4de8-93f0-fa0a29ef0ee8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "df586179-a82f-4eb6-ab76-70b8944a73b1",
+    "name": "Editar Aviso-> Scenario: Administrador quer editar um aviso sem titulo",
+    "commands": [{
+      "id": "b622cab9-b2c7-4d16-9bd9-39c21cd3765a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0d9b483-0ea6-4216-9156-d1e8481dc691",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34fe0550-e1f3-4b75-83c6-213c8f19aa91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) .elevation-7 img",
+      "targets": [
+        ["css=.flex:nth-child(1) .elevation-7 img", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/a/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1060ff4b-73a9-48df-b8db-c1431fb26c68",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .mr-2",
+      "targets": [
+        ["css=tr:nth-child(1) .mr-2", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[3]/div/div/div/form/div/div/table/tbody/tr/td[3]/i", "xpath:idRelative"],
+        ["xpath=//td[3]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95f3c756-f0a3-4fc3-8340-abdcb2281276",
+      "comment": "",
+      "command": "click",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cca6dc0-4a17-492d-8c51-12e1ef0126ad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "978ccf1e-d58f-447c-9707-42c6149c44c3",
+      "comment": "",
+      "command": "type",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6efcf79b-8c4b-411a-8b56-6b64544cc879",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2535efe-2b27-4176-ac5a-c3aace29c82d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc018f8a-7b52-40d2-aa48-d8b4b60d7356",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Preencha os campos corretamente!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6903ac47-1381-4314-aa3a-0beb851f9c1f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f7deb01f-3813-4d13-9fc1-3fa388f5f91d",
+    "name": "Criar Turma-> Scenario: Scenario: Administrador criar uma turma com nome da turma e chave de acesso",
+    "commands": [{
+      "id": "94e23003-9d17-4de7-8857-6a0a202b5b96",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89d334c2-cfbe-4f62-8d46-029d74ae9f56",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6205a03-b49b-4689-96be-254308339a7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=v-list-item:nth-child(3) v-list-item-title",
+      "targets": [
+        ["css=v-list-item:nth-child(3) v-list-item-title", "css:finder"],
+        ["xpath=//div[@id='app']/div/aside/div[2]/v-list-item-group/v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:idRelative"],
+        ["xpath=//v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:position"],
+        ["xpath=//v-list-item-title[contains(.,'Cadastrar Turma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77598087-6371-4ef7-9535-beb893443178",
+      "comment": "",
+      "command": "click",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-focused input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4b3e652-0db0-4706-afd9-3a6bd8e287f5",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-label-active input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "teste turma"
+    }, {
+      "id": "bd5c61d2-d761-4207-9dae-83b8cf6b42ed",
+      "comment": "",
+      "command": "click",
+      "target": "name=chaveDeAcesso",
+      "targets": [
+        ["name=chaveDeAcesso", "name"],
+        ["css=.v-text-field--box input", "css:finder"],
+        ["xpath=//input[@name='chaveDeAcesso']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dbed01e-8721-42fc-a4bd-4b7d7d3cb94c",
+      "comment": "",
+      "command": "type",
+      "target": "name=chaveDeAcesso",
+      "targets": [
+        ["name=chaveDeAcesso", "name"],
+        ["css=.v-text-field--box input", "css:finder"],
+        ["xpath=//input[@name='chaveDeAcesso']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "chave-turma"
+    }, {
+      "id": "4db4e619-0097-4723-a34d-2b77422ec9df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn:nth-child(2) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(2) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "745ca501-689a-44d6-bb5d-4af1577c0570",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-icon--right",
+      "targets": [
+        ["css=.v-icon--right", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7da7afa3-65e3-4a4c-9f7e-2327aa77935d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "36a6335e-7adf-4020-bad0-e1767a228935",
+    "name": "Criar Turma-> Scenario: Administrador quer criar a turma sem nome ",
+    "commands": [{
+      "id": "34c3fd2a-8595-48b8-990d-b189d34a2a66",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa700cb1-cfd4-4a5c-b7bb-963724159344",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efbbf8bb-a28e-47e9-8292-48198b09f392",
+      "comment": "",
+      "command": "click",
+      "target": "css=v-list-item:nth-child(3) v-list-item-title",
+      "targets": [
+        ["css=v-list-item:nth-child(3) v-list-item-title", "css:finder"],
+        ["xpath=//div[@id='app']/div/aside/div[2]/v-list-item-group/v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:idRelative"],
+        ["xpath=//v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:position"],
+        ["xpath=//v-list-item-title[contains(.,'Cadastrar Turma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd31b02a-9981-4108-bbee-823fcebf08a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-text-field--box .v-text-field__slot",
+      "targets": [
+        ["css=.v-text-field--box .v-text-field__slot", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d43d3236-af72-4cee-a85a-91854c3fe561",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.v-btn:nth-child(2) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(2) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12990338-1ef6-4ec3-bfcf-6c31f8884602",
+      "comment": "",
+      "command": "type",
+      "target": "name=chaveDeAcesso",
+      "targets": [
+        ["name=chaveDeAcesso", "name"],
+        ["css=.v-text-field--box input", "css:finder"],
+        ["xpath=//input[@name='chaveDeAcesso']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "chave-turma"
+    }, {
+      "id": "c74b6655-dee5-4962-a3be-6e241cf5a8d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn:nth-child(2) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(2) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97e50341-ccb1-47b8-83d8-7de346e51b9a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.v-btn:nth-child(2) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(2) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7181b275-1359-4112-af77-182ad5f84778",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Preencha os campos corretamente!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d497bfa9-2e33-45cf-858f-7b7d3d4e7997",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d99b6351-414c-4eb3-911f-d94c331857d8",
+    "name": "Criar Turma -> Scenario: Administrador quer criar turma sem chave de acesso da turma",
+    "commands": [{
+      "id": "ae4fdde0-e085-420a-b4b9-312089168032",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed4d37f5-692a-480b-ab1b-e492a97017ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d893c97-c295-4108-a3a4-da93ac4af3db",
+      "comment": "",
+      "command": "click",
+      "target": "css=v-list-item:nth-child(3) v-list-item-title",
+      "targets": [
+        ["css=v-list-item:nth-child(3) v-list-item-title", "css:finder"],
+        ["xpath=//div[@id='app']/div/aside/div[2]/v-list-item-group/v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:idRelative"],
+        ["xpath=//v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:position"],
+        ["xpath=//v-list-item-title[contains(.,'Cadastrar Turma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b828a9b-adf0-44b9-a519-2b46513a1c74",
+      "comment": "",
+      "command": "click",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-focused input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6bd9ffa-664e-44c7-b915-bbadb63baf77",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-label-active input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nome turma"
+    }, {
+      "id": "6ad6dfcb-a975-474c-8869-3aa4f03d9c86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn:nth-child(2) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(2) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a56bf1f0-64d9-442c-a2ab-42d206afed0f",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Preencha os campos corretamente!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ef365e5-ed49-433b-a76d-4ae4b7ade907",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d53bd103-32cd-472f-9f7b-a7e2f98e3651",
+    "name": "Criar Turma-> Scenario: Administrador quer criar uma turma com o nome já existente",
+    "commands": [{
+      "id": "2dc5107b-809f-41e8-8d70-ea4468db2380",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0946d578-6191-464e-a973-b8aa2d65f024",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cc2a148-bf85-4de4-b2fd-f31ff5972182",
+      "comment": "",
+      "command": "click",
+      "target": "css=v-list-item:nth-child(3) v-list-item-title",
+      "targets": [
+        ["css=v-list-item:nth-child(3) v-list-item-title", "css:finder"],
+        ["xpath=//div[@id='app']/div/aside/div[2]/v-list-item-group/v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:idRelative"],
+        ["xpath=//v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:position"],
+        ["xpath=//v-list-item-title[contains(.,'Cadastrar Turma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80d79a94-b3f2-4e9a-990a-19ba96e0271b",
+      "comment": "",
+      "command": "click",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-focused input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3258e05-c2bc-474c-87b5-bf7920965737",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-label-active input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "teste nome igual"
+    }, {
+      "id": "0f4c8244-1089-451f-a02e-1672167afa02",
+      "comment": "",
+      "command": "click",
+      "target": "name=chaveDeAcesso",
+      "targets": [
+        ["name=chaveDeAcesso", "name"],
+        ["css=.v-text-field--box input", "css:finder"],
+        ["xpath=//input[@name='chaveDeAcesso']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "135c5154-3e22-4157-8490-eb0b89304084",
+      "comment": "",
+      "command": "type",
+      "target": "name=chaveDeAcesso",
+      "targets": [
+        ["name=chaveDeAcesso", "name"],
+        ["css=.v-text-field--box input", "css:finder"],
+        ["xpath=//input[@name='chaveDeAcesso']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "teste"
+    }, {
+      "id": "e97b608e-fc4a-49e9-9798-ea6da110f01b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn:nth-child(2) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(2) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0108ca1e-f72c-4170-b78d-2c0b5c7623a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn:nth-child(2) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(2) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f06dd8-af51-4fda-a064-58adc1d2d7dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=v-list-item:nth-child(3) v-list-item-title",
+      "targets": [
+        ["css=v-list-item:nth-child(3) v-list-item-title", "css:finder"],
+        ["xpath=//div[@id='app']/div/aside/div[2]/v-list-item-group/v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:idRelative"],
+        ["xpath=//v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:position"],
+        ["xpath=//v-list-item-title[contains(.,'Cadastrar Turma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25d683c9-5493-4fb1-8ee4-ea399a76b7d8",
+      "comment": "",
+      "command": "click",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-focused input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e28d2f9-28e9-4d4c-916a-d6f957d92970",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-label-active input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "teste nome igual"
+    }, {
+      "id": "bc064e44-45f2-4a58-8ecb-43c052524690",
+      "comment": "",
+      "command": "click",
+      "target": "name=chaveDeAcesso",
+      "targets": [
+        ["name=chaveDeAcesso", "name"],
+        ["css=.v-text-field--box input", "css:finder"],
+        ["xpath=//input[@name='chaveDeAcesso']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38ad90e3-9de1-45b0-95c9-350c37a28fa3",
+      "comment": "",
+      "command": "type",
+      "target": "name=chaveDeAcesso",
+      "targets": [
+        ["name=chaveDeAcesso", "name"],
+        ["css=.v-text-field--box input", "css:finder"],
+        ["xpath=//input[@name='chaveDeAcesso']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "teste chave"
+    }, {
+      "id": "cf13a216-bacf-4ea6-aab8-5284262632b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn:nth-child(2) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(2) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "801b718c-aaa7-4335-b31e-85faeaf769c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn:nth-child(2) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(2) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d90ac51f-582b-4fc1-ba37-c33793ada9d6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4370e2f7-90b9-48cf-9c61-ef0dfbc8ae06",
+    "name": "Criar Turma-> Scenario: Administrador quer criar uma turma com código de acesso existente",
+    "commands": [{
+      "id": "0faeb557-6934-498b-8054-17162d7f1734",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be27ae39-e1b1-4556-af02-8dff62d1ab4b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f573e788-da03-4e9e-8807-3a05e00818c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=v-list-item:nth-child(3) v-list-item-title",
+      "targets": [
+        ["css=v-list-item:nth-child(3) v-list-item-title", "css:finder"],
+        ["xpath=//div[@id='app']/div/aside/div[2]/v-list-item-group/v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:idRelative"],
+        ["xpath=//v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:position"],
+        ["xpath=//v-list-item-title[contains(.,'Cadastrar Turma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c55b41d-c64f-4576-bc71-8aa3f2104284",
+      "comment": "",
+      "command": "click",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-focused input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d78930dc-ab06-4da6-b290-ee689bb8c061",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-label-active input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nome"
+    }, {
+      "id": "bea168b0-8181-4598-8952-705ea073166c",
+      "comment": "",
+      "command": "click",
+      "target": "name=chaveDeAcesso",
+      "targets": [
+        ["name=chaveDeAcesso", "name"],
+        ["css=.v-text-field--box input", "css:finder"],
+        ["xpath=//input[@name='chaveDeAcesso']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "943d2b1c-cb35-4cf0-a005-2a39bedda947",
+      "comment": "",
+      "command": "type",
+      "target": "name=chaveDeAcesso",
+      "targets": [
+        ["name=chaveDeAcesso", "name"],
+        ["css=.v-text-field--box input", "css:finder"],
+        ["xpath=//input[@name='chaveDeAcesso']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "chave igual"
+    }, {
+      "id": "36594814-e1da-4e06-9308-ba39aa7478ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn:nth-child(2) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(2) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5773a5d-ea40-45e2-8500-3710110fef39",
+      "comment": "",
+      "command": "click",
+      "target": "css=v-list-item:nth-child(3) v-list-item-title",
+      "targets": [
+        ["css=v-list-item:nth-child(3) v-list-item-title", "css:finder"],
+        ["xpath=//div[@id='app']/div/aside/div[2]/v-list-item-group/v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:idRelative"],
+        ["xpath=//v-list-item[3]/div/div/a/v-list-item-content/v-list-item-title", "xpath:position"],
+        ["xpath=//v-list-item-title[contains(.,'Cadastrar Turma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf9ff692-ae13-432a-b17a-7828289fc2ff",
+      "comment": "",
+      "command": "click",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-focused input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52405077-dde1-4d1f-a509-46d4914d231c",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.v-input--is-label-active input", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nome turma"
+    }, {
+      "id": "04cf9dc1-77b5-43ed-835d-b2a72e6cfdc1",
+      "comment": "",
+      "command": "click",
+      "target": "name=chaveDeAcesso",
+      "targets": [
+        ["name=chaveDeAcesso", "name"],
+        ["css=.v-text-field--box input", "css:finder"],
+        ["xpath=//input[@name='chaveDeAcesso']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "098b83c3-1c5b-4805-8ad0-81c0286a30b3",
+      "comment": "",
+      "command": "type",
+      "target": "name=chaveDeAcesso",
+      "targets": [
+        ["name=chaveDeAcesso", "name"],
+        ["css=.v-text-field--box input", "css:finder"],
+        ["xpath=//input[@name='chaveDeAcesso']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "chave igual"
+    }, {
+      "id": "9a5a3542-44e8-49a4-8fb3-5db853c1e93d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn:nth-child(2) > .v-btn__content",
+      "targets": [
+        ["css=.v-btn:nth-child(2) > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61c4b7f0-392a-4e1b-8f1f-473136ab6b32",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c299a1fa-43c1-44e3-8f99-a185219ff5dd",
+    "name": "Deletar Aviso -> Scenario: O administrador clica no botão para deletar o aviso e aparece a tela de confirmação da exclusão.",
+    "commands": [{
+      "id": "bb562232-4401-4e78-9992-cc3f1195ae12",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c28ca264-5d56-4d9b-bf41-d009415cad29",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa5ef683-f694-4530-966e-6b4b7e4a3b04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) .elevation-7 img",
+      "targets": [
+        ["css=.flex:nth-child(1) .elevation-7 img", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/a/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19cabd0f-2e0c-4820-b75a-8bff00c92da9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme--dark > .v-btn__content",
+      "targets": [
+        ["css=.theme--dark > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[2]/a/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1787dd20-2197-4fd1-aeb9-fbcb61f79d62",
+      "comment": "",
+      "command": "click",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b11dcd5-23c9-4845-9694-6e051369a1fb",
+      "comment": "",
+      "command": "type",
+      "target": "name=titulo",
+      "targets": [
+        ["name=titulo", "name"],
+        ["css=.v-text-field__slot > input", "css:finder"],
+        ["xpath=//input[@name='titulo']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "aviso deletar"
+    }, {
+      "id": "8536d408-072f-4473-9793-905418b07d75",
+      "comment": "",
+      "command": "click",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a258d3b-d3ef-4f2e-a14d-65058d9cf51b",
+      "comment": "",
+      "command": "type",
+      "target": "name=descricao",
+      "targets": [
+        ["name=descricao", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descricao']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "aviso deletar"
+    }, {
+      "id": "f6743d3e-f4b5-4d39-80a6-64ae95679a87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .v-btn > .v-btn__content",
+      "targets": [
+        ["css=.row > .v-btn > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div[2]/div/div/div/form/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7a469cf-7471-4e9e-9058-fe0ebf1dae4c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.flex:nth-child(1) .elevation-7 img",
+      "targets": [
+        ["css=.flex:nth-child(1) .elevation-7 img", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div/div/div/a/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e71a2b7a-9c5d-4b59-aafe-b01b74f3cf8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) .elevation-7 img",
+      "targets": [
+        ["css=.flex:nth-child(1) .elevation-7 img", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div[2]/div/div/div/a/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63b1b13a-19bb-4b91-bd4f-882b0edca7e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .v-icon:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) .v-icon:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/div/div[3]/div/div/div/form/div/div/table/tbody/tr/td[3]/i[2]", "xpath:idRelative"],
+        ["xpath=//i[2]", "xpath:position"],
+        ["xpath=//i[contains(.,'delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b020ed04-8ab3-431f-a4f8-39951dc13512",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-icon--right",
+      "targets": [
+        ["css=.v-icon--right", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f472b0df-598c-4074-968b-05d3ce61228a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3ac19750-98e5-4cc3-ae85-4b54211654fb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["62b049ec-526b-4f18-8e58-14a177de87bd"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
