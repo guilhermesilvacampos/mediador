@@ -91,7 +91,7 @@
         </v-flex>
         <v-layout column align-center justify-center class="grey lighten-1" md4>
           <v-flex md2>
-            <img :height="'120px'" id="base64" :src="imagemUploadUrl" />
+            <img :height="'120px'" id="base64" :src="imagemUploadUrl" alt="material imagem" />
           </v-flex>
 
           <v-btn color="black" dark>
@@ -193,7 +193,7 @@ export default {
           document.getElementById("base64").src =
             "data:image/png;base64," + base64String;
         };
-      })(f);
+      })();
       // Read in the image file as a data URL.
       reader.readAsBinaryString(f);
     },

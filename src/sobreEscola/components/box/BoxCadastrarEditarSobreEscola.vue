@@ -59,7 +59,7 @@
         </v-flex>
         <v-layout column align-center justify-center class="grey lighten-1" md4>
           <v-flex md2>
-            <img :height="'120px'" id="base64" :src="imagemUploadUrl" />
+            <img :height="'120px'" id="base64" :src="imagemUploadUrl" alt="escola imagem"/>
           </v-flex>
 
           <v-btn color="black" dark>
@@ -121,9 +121,7 @@ document.getElementById("base64").src = '';
     loadData() {
       this.$http.get("escola",{ headers: {'Authorization': this.$session.get("token")}}).then(
         resposta => {
-          if ((this.sobreEscola = "")) {
-            this.cadastrar = true;
-          }
+          
           this.sobreEscola = resposta.body;
 
           document.getElementById("base64").src =
@@ -155,7 +153,7 @@ document.getElementById("base64").src = '';
           document.getElementById("base64").src =
             "data:image/png;base64," + base64String;
         };
-      })(f);
+      })();
       // Read in the image file as a data URL.
       reader.readAsBinaryString(f);
     },

@@ -1,5 +1,5 @@
 <template>
-    <img :height="height" :width="width" :border-radius="borderRadius"  :src="this.url"/>
+    <img :height="height" :width="width" :border-radius="borderRadius"  :src="this.url" alt="imagem"/>
 </template>
 <script>
 export default {

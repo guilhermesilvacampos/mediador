@@ -77,9 +77,7 @@ export default {
     loadData() {
       this.$http.get("calendario",{ headers: {'Authorization': this.$session.get("token")}}).then(
         resposta => {
-          if ((this.calendario = "")) {
-            this.cadastrar = true;
-          }
+         
 
           this.calendario = resposta.body;
         },
