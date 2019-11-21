@@ -20,7 +20,7 @@
                 <v-flex md12 mt-3>
                   <h1 class="input">Nome</h1>
                   <v-text-field
-                    name="nome"
+                    name="nome" 
                     v-validate="'required'"
                     :error-messages="errors.collect('nome')"
                     data-vv-name="nome"
@@ -144,8 +144,8 @@ document.getElementById("base64").src = '';
       var reader = new FileReader();
       // Closure to capture the file information.
       reader.onload = (function() {
-        return function(e) {
-          var binaryData = e.target.result;
+        return function(h) {
+          var binaryData = h.target.result;
           //Converting Binary Data to base 64
           var base64String = window.btoa(binaryData);
           //showing file converted to base64
