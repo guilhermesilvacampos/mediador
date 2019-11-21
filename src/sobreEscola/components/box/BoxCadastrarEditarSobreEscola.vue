@@ -143,8 +143,8 @@ document.getElementById("base64").src = '';
       var reader = new FileReader();
       // Closure to capture the file information.
       reader.onload = (function() {
-        return function(f) {
-          var binaryData = f.target.result;
+        return function(j) {
+          var binaryData = j.target.result;
           //Converting Binary Data to base 64
           var base64String = window.btoa(binaryData);
           //showing file converted to base64
