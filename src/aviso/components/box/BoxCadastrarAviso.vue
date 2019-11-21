@@ -173,8 +173,8 @@ export default {
       var reader = new FileReader();
       // Closure to capture the file information.
       reader.onload = (function() {
-        return function(h) {
-          var binaryData = h.target.result;
+        return function(d) {
+          var binaryData = d.target.result;
           //Converting Binary Data to base 64
           var base64String = window.btoa(binaryData);
           //showing file converted to base64

@@ -50,7 +50,7 @@
         </v-flex>
         <v-layout column align-center justify-center class="grey lighten-1" md4>
           <v-flex md2>
-            <img :height="'120px'" id="base64" :src="imagemUploadUrl" alt="bullying imagem"/>
+            <img :height="'120px'" id="base64" :src="imagemUploadUrl" alt=" bullying imagem "/>
           </v-flex>
 
           <v-btn color="black" dark>
@@ -138,8 +138,8 @@ document.getElementById("base64").src = '';
       var reader = new FileReader();
       // Closure to capture the file information.
       reader.onload = (function() {
-        return function(h) {
-          var binaryData = h.target.result;
+        return function(b) {
+          var binaryData = b.target.result;
           //Converting Binary Data to base 64
           var base64String = window.btoa(binaryData);
           //showing file converted to base64

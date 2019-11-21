@@ -4,7 +4,7 @@
       <v-layout row wrap justify-center align-center class="layout-form">
         <v-flex text-xs-center md12>
           <v-avatar size="120">
-            <img :src="logoClickEscola" alt="logo" />
+            <img :src="logoClickEscola" alt="Logo"/>
           </v-avatar>
           <h1 class="label">Mediador Pedagógico</h1>
         </v-flex>

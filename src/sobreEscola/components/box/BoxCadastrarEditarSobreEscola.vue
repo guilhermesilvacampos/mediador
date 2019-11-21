@@ -121,7 +121,6 @@ document.getElementById("base64").src = '';
     loadData() {
       this.$http.get("escola",{ headers: {'Authorization': this.$session.get("token")}}).then(
         resposta => {
-          
           this.sobreEscola = resposta.body;
 
           document.getElementById("base64").src =
@@ -144,8 +143,8 @@ document.getElementById("base64").src = '';
       var reader = new FileReader();
       // Closure to capture the file information.
       reader.onload = (function() {
-        return function(h) {
-          var binaryData = h.target.result;
+        return function(f) {
+          var binaryData = f.target.result;
           //Converting Binary Data to base 64
           var base64String = window.btoa(binaryData);
           //showing file converted to base64

@@ -31,4 +31,4 @@ this.$router.push({
 <style scoped>
  
 </style>
- 
+
